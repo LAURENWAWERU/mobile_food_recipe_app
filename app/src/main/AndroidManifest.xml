@@ -15,7 +15,6 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.RecipeApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,14 +25,36 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.RecipeApp">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+        <activity
+            android:name=".PilauActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RecipeApp">
+        </activity>
+        <activity
+            android:name=".MukimoActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RecipeApp">
+        </activity>
+        <activity
+            android:name=".BeefStewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RecipeApp">
+        </activity>
+        <activity
+            android:name=".MatokeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RecipeApp">
+        </activity>
+        <activity
+            android:name=".GitheriActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RecipeApp">
+        </activity>
+
+
+
     </application>
 
 </manifest>
